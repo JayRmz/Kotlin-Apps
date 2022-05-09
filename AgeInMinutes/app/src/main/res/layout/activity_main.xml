@@ -50,4 +50,46 @@
         android:textColor="@color/black"
         android:backgroundTint="@color/buttonBG"
         />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="05.07.1996"
+        android:textColor="@color/textBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SELECTED DATE"
+        android:textColor="@color/lightGrey"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/totalMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="144000"
+        android:textColor="@color/textBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="minutes since date"
+        android:textColor="@color/lightGrey"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
 </LinearLayout>
